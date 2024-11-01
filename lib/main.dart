@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animation_tutorial/animated_align_screen.dart';
 import 'package:flutter_animation_tutorial/animated_container_screen.dart';
+import 'package:flutter_animation_tutorial/animated_cross_fade_screen.dart';
 import 'package:flutter_animation_tutorial/animated_opacity_screen.dart';
 import 'package:flutter_animation_tutorial/animated_position_screen.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AnimatedPositionScreen(),
+      home: const AnimatedCrossFadeScreen(),
     );
   }
 }

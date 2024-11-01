@@ -35,7 +35,7 @@ class _AnimatedContainerScreenState extends State<AnimatedContainerScreen> {
            startAnimation();
          },
          child: AnimatedContainer(
-           duration: Duration(seconds: 1),
+           duration: const Duration(seconds: 1),
            height: boxHeight,
            width: boxWidth,
            color: color,
