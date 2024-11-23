@@ -6,6 +6,7 @@ import 'package:flutter_animation_tutorial/animated_opacity_screen.dart';
 import 'package:flutter_animation_tutorial/animated_position_screen.dart';
 import 'package:flutter_animation_tutorial/gridview_animation_screen.dart';
 import 'package:flutter_animation_tutorial/listview_animation_screen.dart';
+import 'package:flutter_animation_tutorial/page_routing_animation.dart';
 import 'package:flutter_animation_tutorial/rotation_transition_screen.dart';
 
 void main() {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const GridViewAnimationScreen(),
+      home:  FirstPage(),
 
     );
   }
